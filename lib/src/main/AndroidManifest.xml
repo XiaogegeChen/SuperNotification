@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.cse.neu.edu.supernotification.lib">
+
+    <application>
+        <provider
+            android:authorities="${applicationId}.init-provider"
+            android:name=".InitializeProvider"
+            android:exported="false"/>
+    </application>
+    
+</manifest>
